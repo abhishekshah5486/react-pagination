@@ -1,0 +1,61 @@
+.pagination-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .btn-container
+    {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .left-icon
+        {
+            height: 45px;
+            width: 65px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #30088b;
+            .left-nav-icon
+            {
+                height: 20px;
+                width: 20px;
+                fill: white;
+            }
+        }
+        .right-icon {
+            height: 45px;
+            width: 65px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #30088b;
+            .right-nav-icon {
+                height: 20px;
+                width: 20px;
+                fill: white;
+            }
+        }
+        .btn {
+            outline: none;
+            border: none;
+            background-color: black;
+            color: white;
+            height: 45px;
+            width: 65px;
+            font-size: 25px;
+            border-radius: 15px;
+
+            &.clicked
+            {
+                background-color: white;
+                border: 2px solid black;
+                color: black;
+            }
+        }
+    }
+}
